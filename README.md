@@ -64,4 +64,9 @@
 ## 주요 기능 디렉토리
 - 로그인 시 암호화 확인 후 암호화 시 암호화표시 쿠키 생성
 https://github.com/95hanho/VirtualNum/blob/c5561b178c1f215b311650fc79233b24c02fa8dc/frontend/src/components/LoginView.vue#L122
-
+- 암호화 vuex aes128 암호화
+https://github.com/95hanho/VirtualNum/blob/c5561b178c1f215b311650fc79233b24c02fa8dc/frontend/src/store/module/login.js#L50
+- 데이터 요청이 있을 시 암호화서버일 때 파라미터 암호화
+https://github.com/95hanho/VirtualNum/blob/c5561b178c1f215b311650fc79233b24c02fa8dc/frontend/src/axios/axios.js#L25
+- 데이터 버스를 이용하여 등록할 객체데이터 가져오기
+https://github.com/95hanho/VirtualNum/blob/c5561b178c1f215b311650fc79233b24c02fa8dc/frontend/src/components/Set.vue#L189
